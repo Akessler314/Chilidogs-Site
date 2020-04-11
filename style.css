@@ -4,10 +4,6 @@ justify-content: center;
 }
 
 
-body {
-background-color: purple;
-}
-
 .navbar-brand {
 font-size: 38px;
 background-color: orange;
@@ -18,3 +14,4 @@ border-radius: 6px;
 #imgHeader { 
 justify-content: center;
 }
+
