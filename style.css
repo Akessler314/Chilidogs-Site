@@ -15,8 +15,6 @@ border:orange;
 border-radius: 6px;
 }
 
-img {
-
-    max-width: 600px;
-    max-height: 600px;
+#imgHeader { 
+justify-content: center;
 }
