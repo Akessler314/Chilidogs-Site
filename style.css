@@ -1,17 +1,32 @@
 h1 {
 justify-content: center;
+color: whitesmoke;
 
+}
+h2 {
+color: whitesmoke;
 }
 
 
-.navbar-brand {
-font-size: 38px;
-background-color: orange;
-border:orange;
-border-radius: 6px;
-}
 
 #imgHeader { 
 justify-content: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+body, html { 
+background-image: url("bricks.jpg");
+color: whitesmoke;
+max-width: 100%;
+overflow-x: hidden;
 }
 
+#imgHeader { 
+border: darkgray;
+background: linear-gradient(to right, red, purple);
+
+border-style: solid;
+margin-top: 50px;
+border-width: 6px;
+}
