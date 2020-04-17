@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chilidog's Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -16,55 +16,87 @@
 
     <div id="header">
         <img src="sign.jpg" alt="image header reads CHILIDOGS BAR in a neaon sign" id="imgHeader">
+        <br>
+        <br>
     </div>
 
+    <div>
+        <div class="card w-75 offHeader">
+            <div class="card-body">
+                <h5 class="card-title">Click the Button for a Terrible Joke</h5>
+                <p class="card-text" id="jokeDisplay"></p>
+                <button id="jokeButton" class="btn btn-light">New Joke</button>
+            </div>
+        </div>
+    </div>
 
-    <h1>Photo Album</h1>
     <div class="row">
-        <div class="card" style="width: 18rem;">
-            <img src="dad.jpg" class="card-img-top" alt="...">
+        <div class="col-sm-4">
+          <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Me and my boys</h5>
-                <p class="card-text">These are my two boys Andrew and Abram .</p>
+              <h5 class="card-title">Photos</h5>
+              <p class="card-text">Click the button below to check out my photo galary.</p>
+              <a href="assets/photos.html" class="btn btn-light">Photos</a>
             </div>
+          </div>
         </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="dad2.jpg" class="card-img-top" alt="...">
+        <div class="col-sm-4">
+          <div class="card">
             <div class="card-body">
-                <h5 class="card-title">me and my wife</h5>
-                <p class="card-text"> This is my wife I love her very much</p>
+              <h5 class="card-title">Music</h5>
+              <p class="card-text">Click the button below to check out my favorit music</p>
+              <a href="assets/music.html" class="btn btn-light">Music</a>
             </div>
+          </div>
         </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="dad3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">my wife and my friends Coolwhip and Wendy </h5>
-                <p class="card-text"> In Hawii on Sea Maui</p>
+        <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Chilidog's Menu</h5>
+                <p class="card-text">Click the button below to check out the menu at Chilidog's Bar</p>
+                <a href="assets/menu.html" class="btn btn-light">Menu</a>
+              </div>
             </div>
-        </div>
+          </div>
+      </div>
 
-    </div>
-
-    <h2>Music</h2>
-    <iframe src="https://open.spotify.com/embed/track/30dxVfMjlhBY6fXo3ThhJM" width="300" height="380" frameborder="0"
-        allowtransparency="true" allow="encrypted-media"></iframe>
-    <iframe src="https://open.spotify.com/embed/track/5NnZ4JJxWiqqhYNu3rwmFj" width="300" height="380" frameborder="0"
-        allowtransparency="true" allow="encrypted-media"></iframe>
+        <footer>
+            Website developed and designed by Andrew Kessler, Copyright 2020 ©
+        </footer>
 
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script
+
+
+
+
+
+
+
+
+
+
+<!-- Jquerry CDN link  -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous">
+    </script>
+
+<script>
+// array to hold the jokes 
+var jokes= ['what is the difference between a priest and a zit? a zit waits until you are 12 to cum on your face', 'What do you call a gay drive by? A fruit roll up', 'Why is it if a girl sleeps with 10 guys in a week she is a slut, but if I do it I get called gay?', 'if a midget says your hair smells nice is it considered sexual herasment?', 'you know for an orphan every bag of chips is family sized', 'Why do they not let orphans play baseball? becasue they can never find home!', 'Do you know the difference between 365 used condoms and a tire is? on is a good year and the other is a great year', 'There are three girls eating icecream, one is licking it, one is sucking on it and the last one is biting it, do you know which one is married? the one with the wedding ring, duh...', 'Do you know why you dont see gay guys in wheel chairs? you cant be a fruit and a vegtable', 'That show Naked and Affriad really reminds me of playing hide and seek with my uncle', 'A mom and her young son are driving when a dildo flys out from a trash truck and lands on the windshield, the mom trying to save her sons innocence says wow that is a big bug, the son replies, how does that bug fly with a cock that big' ]
+
+
+// on click call the function to generate a joke from the array 
+$('#jokeButton').click(function() {
+    console.log('button was pressed')
+    //the *(x) needs to be updated for how many jokes are in the array since you are not using a for loop 
+    var randomNumber=Math.floor(Math.random()*(9));
+    document.getElementById('jokeDisplay').innerHTML=jokes[randomNumber];
+}
+)
+</script>
 </body>
 
 </html>

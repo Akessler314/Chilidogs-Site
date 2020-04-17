@@ -1,0 +1,79 @@
+h1 {
+    justify-content: center;
+    color: whitesmoke;
+    
+    }
+    h2 {
+    color: whitesmoke;
+    }
+    
+    
+    
+    #imgHeader { 
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    body, html { 
+    background-image: url("bricks.jpg");
+    color: whitesmoke;
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    
+    #imgHeader { 
+    border: darkgray;
+    
+    border-style: solid;
+    margin-top: 50px;
+    border-width: 6px;
+    margin-bottom: 50px;
+    }
+
+    .card {
+    margin: 20px;
+    margin-top: 80px;
+    }
+    iframe {
+        margin: 20px;
+        margin-top: 80px;
+
+    }
+    
+
+    .offHeader{
+        margin-top: 30px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+ .card-body {
+background-color: rgb(71, 71, 71);
+color: whitesmoke;
+
+ }
+ 
+
+ footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+  }
+
+  .centerImg {
+    position: fixed;
+    left: 36%;
+    margin: 5% auto;
+    padding: 10px;
+    border: 5px solid #ccc;
+    background-color: #fff;
+
+
+
+  }

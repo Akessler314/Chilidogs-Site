@@ -1,31 +1,31 @@
 h1 {
-justify-content: center;
-color: whitesmoke;
-
-}
-h2 {
-color: whitesmoke;
-}
-
-
-
-#imgHeader { 
-justify-content: center;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-body, html { 
-background-image: url("bricks.jpg");
-color: whitesmoke;
-max-width: 100%;
-overflow-x: hidden;
-}
-
-#imgHeader { 
-border: darkgray;
-
-border-style: solid;
-margin-top: 50px;
-border-width: 6px;
-}
+    justify-content: center;
+    color: whitesmoke;
+    
+    }
+    h2 {
+    color: whitesmoke;
+    }
+    
+    
+    
+    #imgHeader { 
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    body, html { 
+    background-image: url("bricks.jpg");
+    color: whitesmoke;
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    
+    #imgHeader { 
+    border: darkgray;
+    
+    border-style: solid;
+    margin-top: 50px;
+    border-width: 6px;
+    }
